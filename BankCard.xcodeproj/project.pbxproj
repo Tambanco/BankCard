@@ -12,6 +12,7 @@
 		49C4907D27443FE2003E8E64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C4907C27443FE2003E8E64 /* ViewController.swift */; };
 		49C4908227443FE2003E8E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C4908127443FE2003E8E64 /* Assets.xcassets */; };
 		49C4908527443FE2003E8E64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C4908327443FE2003E8E64 /* LaunchScreen.storyboard */; };
+		49C4908D274445D3003E8E64 /* HexColor.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C4908C274445D3003E8E64 /* HexColor.swift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		49C4908127443FE2003E8E64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49C4908427443FE2003E8E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49C4908627443FE2003E8E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49C4908C274445D3003E8E64 /* HexColor.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColor.swift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +59,20 @@
 				49C4907827443FE2003E8E64 /* AppDelegate.swift */,
 				49C4907A27443FE2003E8E64 /* SceneDelegate.swift */,
 				49C4907C27443FE2003E8E64 /* ViewController.swift */,
+				49C4908E274445D7003E8E64 /* Utils */,
 				49C4908127443FE2003E8E64 /* Assets.xcassets */,
 				49C4908327443FE2003E8E64 /* LaunchScreen.storyboard */,
 				49C4908627443FE2003E8E64 /* Info.plist */,
 			);
 			path = BankCard;
+			sourceTree = "<group>";
+		};
+		49C4908E274445D7003E8E64 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				49C4908C274445D3003E8E64 /* HexColor.swift.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			files = (
 				49C4907D27443FE2003E8E64 /* ViewController.swift in Sources */,
 				49C4907927443FE2003E8E64 /* AppDelegate.swift in Sources */,
+				49C4908D274445D3003E8E64 /* HexColor.swift.swift in Sources */,
 				49C4907B27443FE2003E8E64 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
